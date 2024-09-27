@@ -1,0 +1,232 @@
+body, html {
+    height: 100%; /* Set the height of the html and body to 100% */
+    margin: 0;
+    padding: 0;
+  }
+
+nav {
+    /* background-color: antiquewhite; */
+    border-radius: 10px;
+}
+
+.Side-Items{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-weight: bold;
+    background-color: rgb(78, 132, 179);
+    gap: 3rem;
+    width: 200px;
+    align-items: center;
+    padding: 30px 10px;
+    height: 80%;
+    border-radius: 10px;
+    margin:20px;
+
+}
+
+.Side-Items li {
+    background-color: aquamarine;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.Customer-Management {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    margin-left: 340px;
+    margin-top: 40px;
+}
+
+.Customer-Management h2 {
+    
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.Customer-Management .Parts{
+    display: flex;
+    align-items:first baseline;
+    justify-content: space-around;
+}
+
+.Customer-Management ul{
+    margin: 20px;
+    padding: 10px;
+    list-style: none;
+}
+.Customer-Management li{
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight:560;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #f1efef;
+    font-size: 15px;
+}
+
+.form button {
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: aquamarine;
+    color: rgb(20, 3, 3);
+    border: none;
+}
+
+.shortBTN {
+    width: 20%;
+    align-items: center;
+    margin: auto;
+}
+
+.dashboard {
+    
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dashboard p{
+    background-color: rgb(243, 240, 237);
+    padding: 10px;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #f1efef;
+    font-size: 15px;
+}
+
+.Main-Parts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar {
+    background-color: antiquewhite;
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar input {
+    width: 270px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(247, 248, 249);
+    border-radius: 20px;
+}
+
+.navbar .ProfileSec{
+    /* background-color: aqua; */
+    font-size: 30px;
+}
+
+.NavSearchPart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.Billing-Box{
+    border: 2px solid black;
+    height: 500px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.bill-box-update{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    font-size: 15px;
+    margin: 7px;
+}
+
+.icons-delete{
+    font-size: 18px;
+}
+
+.frompop{
+    width: 400px;
+}
+
+.select {
+    width: 400px;
+    margin-top: 10px;
+}
+
+.PopUpScreen {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background: #b5afa659;
+    border-radius: 20px;
+}
+
+.popinCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frompop {
+    margin: auto;
+    margin-left: 30%;
+}
